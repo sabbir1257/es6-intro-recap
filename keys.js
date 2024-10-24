@@ -1,4 +1,9 @@
-const glass = {name: 'glass', color: "golden", price: 12, isCleaned: true};
+const glass = {
+  name: 'glass',
+  color: "golden", 
+  price: 12, 
+  isCleaned: true
+};
 
 console.log(glass);
 
@@ -20,5 +25,7 @@ const entries = Object.entries(glass);
 ] */
 // console.log(entries);
 
-delete glass.isCleaned;
+// delete glass.isCleaned;
+
+
 console.log(glass);
